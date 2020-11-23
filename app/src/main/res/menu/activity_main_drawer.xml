@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_foro"
+            android:icon="@drawable/ic_baseline_forum"
+            android:title="@string/menu_foro" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/ic_baseline_salirapp"
+            android:title="@string/menu_salir" />
+        <item
+            android:id="@+id/nav_noticiasapp"
+            android:icon="@drawable/ic_baseline_noticiasapp"
+            android:title="@string/menu_noticiasapp"/>
+    </group>
+</menu>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_foro">
+
+    <fragment
+        android:id="@+id/nav_foro"
+        android:name="com.sc703.proyecto_movil.ui.ForoApp.Fragment_Foro"
+        android:label="@string/menu_foro"
+        tools:layout="@layout/fragment_foro" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.sc703.proyecto_movil.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_salir"
+        android:name="com.sc703.proyecto_movil.ui.salirApp.Fragment_Salir"
+        android:label="@string/menu_salir"
+        tools:layout="@layout/fragment_salirapp" />
+
+    <fragment
+        android:id="@+id/nav_noticiasapp"
+        android:name="com.sc703.proyecto_movil.ui.salirApp.Fragment_Noticias"
+        android:label="@string/menu_noticiasapp"
+        tools:layout="@layout/fragment_noticiasapp"
+
+         />
+</navigation>

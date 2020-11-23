@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/mariposa2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOMBRE APP"
+        android:textSize="27dp"
+        android:gravity="top"
+        android:textColor="@color/white200"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escriba su nombre de usuario o su correo"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:paddingTop="90dp"/>
+    <EditText
+        android:id="@+id/et_Correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="correo@hotmail.com o usuario"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña:"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+    <EditText
+        android:id="@+id/et_Contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="****************" />
+    <Button
+        android:id="@+id/bn_Ingreso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:paddingTop="90dp"
+        android:onClick="Ingreso"
+        android:textStyle="bold"
+        android:background="@color/material_on_background_disabled"/>
+
+    <Button
+        android:id="@+id/bn_Registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:background="@color/material_on_background_disabled"
+        android:onClick="Registro"
+        android:textStyle="bold"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
