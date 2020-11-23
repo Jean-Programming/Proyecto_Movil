@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mariposa2"
+    tools:context="ui.perfilApp.Fragment_Perfil">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        tools:src="@tools:sample/avatars" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jean Carlo Merizalde"
+        android:textAlignment="center"/>
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.chip.ChipGroup>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <Button
+        android:id="@+id/bn_Configuracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Configuracion"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:id="@+id/bn_Publicaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publicaciones"
+        android:layout_marginLeft="50dp"/>
+</LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

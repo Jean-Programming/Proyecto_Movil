@@ -6,6 +6,12 @@
     app:startDestination="@+id/nav_foro">
 
     <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.sc703.proyecto_movil.ui.perfilApp.Fragment_Perfil"
+        android:label="@string/menu_perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+    <fragment
         android:id="@+id/nav_foro"
         android:name="com.sc703.proyecto_movil.ui.ForoApp.Fragment_Foro"
         android:label="@string/menu_foro"
@@ -25,7 +31,7 @@
 
     <fragment
         android:id="@+id/nav_noticiasapp"
-        android:name="com.sc703.proyecto_movil.ui.salirApp.Fragment_Noticias"
+        android:name="com.sc703.proyecto_movil.ui.noticiasApp.Fragment_Noticias"
         android:label="@string/menu_noticiasapp"
         tools:layout="@layout/fragment_noticiasapp"
 

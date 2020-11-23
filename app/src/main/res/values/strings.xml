@@ -8,8 +8,11 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
+    <string name="menu_perfil">Perfil</string>
     <string name="menu_foro">Foros</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_salir">Salir</string>
     <string name="menu_noticiasapp">Noticias</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
