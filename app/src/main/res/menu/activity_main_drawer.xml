@@ -17,12 +17,12 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_gallery" />
         <item
-            android:id="@+id/nav_salir"
-            android:icon="@drawable/ic_baseline_salirapp"
-            android:title="@string/menu_salir" />
-        <item
             android:id="@+id/nav_noticiasapp"
             android:icon="@drawable/ic_baseline_noticiasapp"
             android:title="@string/menu_noticiasapp"/>
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/ic_baseline_salirapp"
+            android:title="@string/menu_salir" />
     </group>
 </menu>

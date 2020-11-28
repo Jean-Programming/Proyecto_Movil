@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Proyecto_Movil</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_foro">Foros</string>
+    <string name="menu_salir">Salir</string>
+    <string name="menu_noticiasapp">Noticias</string>
+    <string name="title_activity_maps">Mapas</string>
+    <string name="menu_gallery">Galeria</string>
+</resources>

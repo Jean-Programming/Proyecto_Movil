@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment_contactenos">
-
-    <!-- TODO: Update blank fragment layout -->
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.contactenosApp.Fragment_Contactenos">
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
-
-</FrameLayout>
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:text="Contactenos" />
+    <Button
+        android:id="@+id/bn_Web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_pagweb"
+        android:text="Pagina Web" />
+    <Button
+        android:id="@+id/bn_llamada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_llamada"
+        android:text="Llamar por telefono"/>
+    <Button
+        android:id="@+id/bn_Mapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_map"
+        android:text="Mapa"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
