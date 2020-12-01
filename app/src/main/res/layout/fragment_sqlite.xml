@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.sqlite.Fragment_SQLite"
+    android:orientation="vertical"
+    android:gravity="start"
+    android:background="@drawable/mariposa2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre completo"
+            android:textAlignment="center"
+            android:textSize="20dp">
+        </TextView>
+        <EditText
+            android:id="@+id/et_Nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ej: Aldrik Hall">
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cedula o identificación"
+            android:textAlignment="center"
+            android:textSize="20dp">
+        </TextView>
+        <EditText
+            android:id="@+id/et_Cedula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ej: 111111111">
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correo electrónico"
+            android:textAlignment="center"
+            android:textSize="20dp">
+        </TextView>
+        <EditText
+            android:id="@+id/et_Correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ej: nombreapellido@hotmail.com">
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edad"
+            android:textAlignment="center"
+            android:textSize="20dp">
+        </TextView>
+        <EditText
+            android:id="@+id/et_Edad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ej: 25">
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teléfono"
+            android:textAlignment="center"
+            android:textSize="20dp">
+        </TextView>
+        <EditText
+            android:id="@+id/et_Telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ej: 8825-4928">
+        </EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dirección"
+            android:textAlignment="center"
+            android:textSize="20dp">
+        </TextView>
+        <EditText
+            android:id="@+id/et_Direccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ej: Curridabat-SJ-CR">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/bn_Agregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar">
+        </Button>
+        <Button
+            android:id="@+id/bn_BuscarSQL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buscar">
+        </Button>
+        <Button
+            android:id="@+id/bn_Modificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cambiar">
+        </Button>
+        <Button
+            android:id="@+id/bn_Eiminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eliminar">
+        </Button>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

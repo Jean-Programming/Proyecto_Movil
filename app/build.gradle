@@ -41,12 +41,24 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:20.0.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
+
+
+
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
 
     //Implementaciones Firebase
     implementation platform('com.google.firebase:firebase-bom:26.1.0')
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.firebase:firebase-database:19.3.0'
+    implementation platform('com.google.firebase:firebase-bom:26.0.0')
+    implementation 'com.google.android.gms:play-services-auth:18.1.0'
+
+    //Otras implementaciones de storage para publicaciones
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    implementation 'id.zelory:compressor:2.1.0'
+    //Dependencia que permite mostrar las imagenes
+    implementation 'com.squareup.picasso:picasso:2.5.2'
 }

@@ -60,4 +60,12 @@
         android:background="@color/material_on_background_disabled"
         android:onClick="Registro"
         android:textStyle="bold"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/bn_Google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
 </androidx.appcompat.widget.LinearLayoutCompat>
